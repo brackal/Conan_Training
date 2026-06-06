@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-SimpleConanPy/readme.md",
+                "file": "04-SimpleConanCross/readme.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,17 +185,19 @@
   },
   "active": "b65a9a4313c1ec1f",
   "lastOpenFiles": [
+    "ConanProfiles/readme.md",
     "readme.md",
-    "03-SimpleConanPy/build/x64/Release/ALL_BUILD/ALL_BUILD.recipe",
-    "03-SimpleConanPy/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog/unsuccessfulbuild",
-    "03-SimpleConanPy/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.write.1.tlog",
-    "03-SimpleConanPy/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.read.1.tlog",
-    "03-SimpleConanPy/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.command.1.tlog",
-    "03-SimpleConanPy/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog/ALL_BUILD.lastbuildstate",
-    "03-SimpleConanPy/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog",
-    "03-SimpleConanPy/build/x64/Release/ALL_BUILD",
-    "03-SimpleConanPy/build/WellDoneApplication.dir/Release/WellDone.446D2035.tlog/Cl.items.tlog",
-    "03-SimpleConanPy/build/WellDoneApplication.dir/Release/WellDoneApplication.exe.recipe",
+    "04-SimpleConanCross/build/WellDoneApplication.bin",
+    "04-SimpleConanCross/build/WellDoneApplication",
+    "04-SimpleConanCross/build/WellDoneApplication.map",
+    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/main.cpp.obj",
+    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/main.cpp.obj.d",
+    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/Inventory.cpp.obj",
+    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/Inventory.cpp.obj.d",
+    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/Guitar.cpp.obj",
+    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/Guitar.cpp.obj.d",
+    "04-SimpleConanCross/build/CMakeFiles/InstallScripts.json",
+    "04-SimpleConanCross/readme.md",
     "03-SimpleConanPy/readme.md",
     "02-SimpleConanTxt/readme.md",
     "01-SimpleCMake/readme.md",
@@ -204,7 +206,6 @@
     "05-SimpleConanCross - Kopie - Kopie/readme.md",
     "05-SimpleConanCross - Kopie/readme.md",
     "04-SimpleConanCross - Kopie/readme.md",
-    "04-SimpleConanCross/readme.md",
     "03-SimpleConanPy - Kopie/readme.md",
     "02-SimpleConanTxt - Kopie/readme.md"
   ]

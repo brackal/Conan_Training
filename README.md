@@ -23,16 +23,7 @@ CMakeDeps
 CMakeToolchain
 
 ## Profile
-Ein Profil definiert die Zielumgebung: Betriebssystem, Architektur, Compiler, Build-Typ (Debug/Release) usw.
-#### ~/.conan2/profiles/default
-[settings]
-arch=x86_64
-build_type=Release
-compiler=msvc
-compiler.cppstd=14
-compiler.runtime=dynamic
-compiler.version=193
-os=Windows
+siehe ConanProfiles/readme.md
 
 ## Typischer Workflow
 #### 1. conanfile.txt definieren
@@ -127,31 +118,6 @@ Nachteil: Größere Binary **vs.** Lib muss auf Zielrechner vorhanden sein
 
 
 
-
-# Conan Profil
-## [settings] 
-[settings] beschreibt die Zielumgebung – also für welches System und mit welchem Compiler das Paket gebaut werden soll.
-#### Was jede Einstellung bedeutet
-Setting             Bedeutung                       Beispielwerte
-os                              Zielbetriebssystem          Windows, Linux, Macos
-arch                            CPU-Architektur             x86_64, x86, armv8
-build_type                  Debug oder Release       Debug, Release
-compiler                    Compiler-Toolchain          msvc, gcc, clang
-compiler.version        Version des Compilers       193 (MSVC 2022)
-compiler.cppstd         C++-Sprachstandard          14, 17, 20, 23
-compiler.runtime        Runtime-Linking             dynamic, static
-compiler.runtime_type   Runtime-Variante        Debug, Release
-
-Diese Kombination ergibt zusammen eine eindeutige Paket-ID (den sogenannten Package-Hash). Conan berechnet daraus einen Hash und sucht damit das passende vorkompilierte Binary.
-
-os=Windows + arch=x86_64 + compiler=msvc + ... → bed280a9c51d41820ca64294cf373083ad852aa8
-Ändert sich ein einziger Wert → anderer Hash → anderes Binary wird gesucht.
-
-
-- compiler.cppstd=14 → Das gibt an, welchen C++-Sprachstandard Conan beim Bauen von Paketen verwenden soll, in diesem Fall C++14 (erschienen 2014).
-- compiler.version → die MSVC/GCC/Clang-Toolchain-Version (z.B. 193 = MSVC 2022)
-- compiler.runtime → ob die C++-Runtime statisch oder dynamisch gelinkt wird (static/dynamic)
-
 # Conan commands
 #### Alle Profile anzeigen
 conan profile list
@@ -170,7 +136,6 @@ conan remove "boost/1.79.0" -f
 
 #### Die Standard-Einstellung der Umgebung für Conan Profil ermitteln 
 conan profile detect --force
-- conan profiles to find under: C:\Users\UserName\.conan2\profiles
 
 #### Verisonen prüfen
 python --version
