@@ -1,0 +1,18 @@
+[settings]
+arch=armv6
+build_type=Release
+compiler=gcc
+compiler.cppstd=gnu17
+compiler.libcxx=libstdc++11
+compiler.version=10
+os=baremetal
+
+
+[buildenv]
+CC=C:/Tools/v1-1-0/GNU_ARM_Embedded/10.3-2021.10/bin/arm-none-eabi-gcc.exe
+CXX=C:/Tools/v1-1-0/GNU_ARM_Embedded/10.3-2021.10/bin/arm-none-eabi-g++.exe
+AR=C:/Tools/v1-1-0/GNU_ARM_Embedded/10.3-2021.10/bin/arm-none-eabi-ar.exe
+LD=C:/Tools/v1-1-0/GNU_ARM_Embedded/10.3-2021.10/bin/arm-none-eabi-ld.exe
+
+[conf]
+tools.cmake.cmaketoolchain:extra_variables={"CMAKE_SYSTEM_NAME": "Generic", "CMAKE_TRY_COMPILE_TARGET_TYPE": "STATIC_LIBRARY", "CMAKE_CXX_COMPILER": "C:/Tools/v1-1-0/GNU_ARM_Embedded/10.3-2021.10/bin/arm-none-eabi-g++.exe", "CMAKE_C_COMPILER": "C:/Tools/v1-1-0/GNU_ARM_Embedded/10.3-2021.10/bin/arm-none-eabi-gcc.exe"}
