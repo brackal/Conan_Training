@@ -144,10 +144,13 @@ compiler.runtime_type   Runtime-Variante        Debug, Release
 
 Diese Kombination ergibt zusammen eine eindeutige Paket-ID (den sogenannten Package-Hash). Conan berechnet daraus einen Hash und sucht damit das passende vorkompilierte Binary.
 
+os=Windows + arch=x86_64 + compiler=msvc + ... → bed280a9c51d41820ca64294cf373083ad852aa8
+Ändert sich ein einziger Wert → anderer Hash → anderes Binary wird gesucht.
 
 
-
-
+- compiler.cppstd=14 → Das gibt an, welchen C++-Sprachstandard Conan beim Bauen von Paketen verwenden soll, in diesem Fall C++14 (erschienen 2014).
+- compiler.version → die MSVC/GCC/Clang-Toolchain-Version (z.B. 193 = MSVC 2022)
+- compiler.runtime → ob die C++-Runtime statisch oder dynamisch gelinkt wird (static/dynamic)
 
 # Conan commands
 #### Alle Profile anzeigen
@@ -177,6 +180,13 @@ make --version
 ./arm-none-eabi-gcc --version
 ninja --version
 
+#### Wo liegt der MSVC Compiler?
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64
+./cl.exe --version
+Microsoft (R) C/C++-Optimierungscompiler Version 19.38.33133 für x64
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+19.3x.xxxxx -> compiler.version=193 in Conan Profile
 
 # Ergänzungen
 https://docs.conan.io/2/tutorial.html
