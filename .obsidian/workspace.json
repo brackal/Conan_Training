@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eaa7f66add14dad1",
+        "id": "956903725339ebaa",
         "type": "tabs",
         "children": [
           {
-            "id": "b65a9a4313c1ec1f",
+            "id": "2c9e296e0a26d7a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-SimpleConanCross/readme.md",
+                "file": "01-SimpleCMake/readme.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 352.5
   },
   "right": {
     "id": "754b3ac52bc01bf5",
@@ -183,30 +183,42 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "b65a9a4313c1ec1f",
+  "active": "2c9e296e0a26d7a5",
   "lastOpenFiles": [
+    "doc/Build-System.md",
+    "doc/CMake.md",
+    "doc/Generators.md",
+    "01-SimpleCMake/readme.md",
+    "01-SimpleCMake/build/Makefile",
+    "01-SimpleCMake/build/Debug/config_log.txt",
+    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.recipe",
+    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/unsuccessfulbuild",
+    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.write.1.tlog",
+    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.read.1.tlog",
+    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.command.1.tlog",
+    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/ALL_BUILD.lastbuildstate",
+    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog",
+    "01-SimpleCMake/build/x64/Debug/ALL_BUILD",
     "ConanProfiles/readme.md",
     "readme.md",
-    "04-SimpleConanCross/build/WellDoneApplication.bin",
-    "04-SimpleConanCross/build/WellDoneApplication",
-    "04-SimpleConanCross/build/WellDoneApplication.map",
-    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/main.cpp.obj",
-    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/main.cpp.obj.d",
-    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/Inventory.cpp.obj",
-    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/Inventory.cpp.obj.d",
-    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/Guitar.cpp.obj",
-    "04-SimpleConanCross/build/CMakeFiles/WellDoneApplication.dir/src/Guitar.cpp.obj.d",
-    "04-SimpleConanCross/build/CMakeFiles/InstallScripts.json",
+    "07-SimpleUsingSimplePackage02/readme.md",
     "04-SimpleConanCross/readme.md",
-    "03-SimpleConanPy/readme.md",
-    "02-SimpleConanTxt/readme.md",
-    "01-SimpleCMake/readme.md",
-    "05-WorkWithPackages/readme.md",
-    "01-ConanPackage/readme.md",
-    "05-SimpleConanCross - Kopie - Kopie/readme.md",
-    "05-SimpleConanCross - Kopie/readme.md",
-    "04-SimpleConanCross - Kopie/readme.md",
+    "05-SimplePackage/readme.md",
+    "07-SimpleUsingSimplePackage02 - Kopie/readme.md",
+    "07-SimpleUsingSimplePackage02/readme copy.md",
+    "05-SimplePackage/SimplePackage02/readme.md",
+    "05-SimplePackage/SimplePackage01 - Kopie/readme.md",
+    "05-SimplePackage/SimplePackage01/readme.md",
+    "06-SimpleUsingSimplePackage01/readme.md",
+    "06-SimpleUsingSimplePackage - Kopie/readme.md",
+    "06-SimpleUsingSimplePackage/readme.md",
+    "06-06-SimpleUsingSimplePackage/readme.md",
+    "06-SimpleUsingSimplePackage_DontWork/readme.md",
+    "06-SimpleConanPy/readme.md",
     "03-SimpleConanPy - Kopie/readme.md",
-    "02-SimpleConanTxt - Kopie/readme.md"
+    "05-SimplePackage/readme copy.md",
+    "05-WorkWithPackages/readme.md",
+    "03-SimpleConanPy/readme.md",
+    "02-SimpleConanTxt/readme.md"
   ]
 }
