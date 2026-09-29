@@ -11,3 +11,5 @@ cd build
 #### Assuming Visual Studio 17 2022 is your VS version and that it matches your default profile
 cmake .. -G "Visual Studio 17 2022" -DCMAKE_TOOLCHAIN_FILE="generators/conan_toolchain.cmake"
 cmake --build . --config Release
+
+[[Conan install]]

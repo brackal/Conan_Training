@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-SimpleCMake/readme.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Dateiexplorer"
@@ -78,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 320.5
   },
   "right": {
     "id": "754b3ac52bc01bf5",
@@ -185,40 +187,41 @@
   },
   "active": "2c9e296e0a26d7a5",
   "lastOpenFiles": [
-    "doc/Build-System.md",
-    "doc/CMake.md",
     "doc/Generators.md",
-    "01-SimpleCMake/readme.md",
-    "01-SimpleCMake/build/Makefile",
-    "01-SimpleCMake/build/Debug/config_log.txt",
-    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.recipe",
-    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/unsuccessfulbuild",
-    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.write.1.tlog",
-    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.read.1.tlog",
-    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.command.1.tlog",
-    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/ALL_BUILD.lastbuildstate",
-    "01-SimpleCMake/build/x64/Debug/ALL_BUILD/ALL_BUILD.tlog",
-    "01-SimpleCMake/build/x64/Debug/ALL_BUILD",
-    "ConanProfiles/readme.md",
     "readme.md",
-    "07-SimpleUsingSimplePackage02/readme.md",
+    "06-SimpleUsingSimplePackage01/readme.md",
     "04-SimpleConanCross/readme.md",
+    "03-SimpleConanPy/readme.md",
+    "10-SimpleUsingSimplePackage05/readme.md",
+    "09-SimpleUsingSimplePackage03/readme.md",
+    "08-SimpleUsingSimplePackage02/readme.md",
+    "07-SimpleUsingSimplePackage02/readme.md",
+    "doc/Conan/Conan Profile.md",
+    "01-SimpleCMake/readme.md",
+    "02-SimpleConanTxt/readme.md",
+    "doc/Build-Datei.md",
+    "doc/CMake.md",
+    "doc/Conan/Conan install.md",
+    "doc/Conan/Conan generate().md",
+    "doc/Conan/Conan Settings.md",
+    "doc/Build-System.md",
+    "doc/Conan/Conan Generators.md",
+    "02-SimpleConanTxt/build/x64/Release/ALL_BUILD/ALL_BUILD.recipe",
+    "02-SimpleConanTxt/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog/unsuccessfulbuild",
+    "02-SimpleConanTxt/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.write.1.tlog",
+    "02-SimpleConanTxt/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.read.1.tlog",
+    "02-SimpleConanTxt/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.command.1.tlog",
+    "02-SimpleConanTxt/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog/ALL_BUILD.lastbuildstate",
+    "02-SimpleConanTxt/build/x64/Release/ALL_BUILD/ALL_BUILD.tlog",
+    "02-SimpleConanTxt/build/x64/Release/ALL_BUILD",
+    "02-SimpleConanTxt/build/WellDoneApplication.dir/Release/WellDone.395D3EE6.tlog/Cl.items.tlog",
+    "02-SimpleConanTxt/build/WellDoneApplication.dir/Release/WellDoneApplication.exe.recipe",
     "05-SimplePackage/readme.md",
     "07-SimpleUsingSimplePackage02 - Kopie/readme.md",
     "07-SimpleUsingSimplePackage02/readme copy.md",
     "05-SimplePackage/SimplePackage02/readme.md",
     "05-SimplePackage/SimplePackage01 - Kopie/readme.md",
     "05-SimplePackage/SimplePackage01/readme.md",
-    "06-SimpleUsingSimplePackage01/readme.md",
-    "06-SimpleUsingSimplePackage - Kopie/readme.md",
-    "06-SimpleUsingSimplePackage/readme.md",
-    "06-06-SimpleUsingSimplePackage/readme.md",
-    "06-SimpleUsingSimplePackage_DontWork/readme.md",
-    "06-SimpleConanPy/readme.md",
-    "03-SimpleConanPy - Kopie/readme.md",
-    "05-SimplePackage/readme copy.md",
-    "05-WorkWithPackages/readme.md",
-    "03-SimpleConanPy/readme.md",
-    "02-SimpleConanTxt/readme.md"
+    "06-SimpleUsingSimplePackage - Kopie/readme.md"
   ]
 }

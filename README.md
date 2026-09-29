@@ -62,48 +62,7 @@ find_package(fmt REQUIRED)
 target_link_libraries(MyTarget fmt::fmt)
 
 
-# Abhängigkeiten installieren
-## Was bedeutet „Paketmanager installiert Pakete"?
-Installation = Diese Schritte passieren im Hintergrund
-conan install .   /   pip install numpy   /   vcpkg install boost
-        │
-        ▼
-┌───────────────────────────────────────────────────┐
-│  1. Auflösen       Was brauche ich überhaupt?                     │
-│  2. Herunterladen  Dateien vom Internet holen                  │
-│  3. Entpacken      Archiv (.zip/.tar.gz) entpacken                 │
-│  4. Kompilieren    (nur bei Source-Paketen, z.B. C/C++)     │
-│  5. Ablegen        Dateien an den richtigen Ort kopieren     │
-│  6. Verknüpfen     Dem Build-System sagen wo alles liegt  │
-└───────────────────────────────────────────────────┘
 
-1️⃣ Auflösen (Dependency Resolution)
-Bevor irgendetwas heruntergeladen wird, prüft der Paketmanager:
-- Welche Version des Pakets passt zu meinen Anforderungen?
-- Hat dieses Paket selbst noch Abhängigkeiten?
-- Gibt es Versionskonflikte?
-
-2️⃣ Herunterladen
-Der Paketmanager lädt die Paket-Dateien von der Registry herunter.
-Diese Dateien sind entweder:
-- Binaries (vorkompiliert, sofort nutzbar)
-- Source-Code (muss noch kompiliert werden → Schritt 4)
-
-3️⃣ Entpacken
-Das heruntergeladene Archiv wird entpackt. 
-
-4️⃣ Kompilieren (nur bei C/C++ aus Source)
-Bei Sprachen wie Python/JS sind Pakete meist reiner Code → kein Kompilieren nötig.
-Bei C/C++ (z.B. Conan, vcpkg) wird oft aus dem Quellcode kompiliert.
-
-5️⃣ Ablegen (wo landen die Dateien?)
-Die Dateien werden in einen lokalen Cache kopiert – nicht in dein Projektverzeichnis.
-
-6️⃣ Verknüpfen (dem Build-System Bescheid geben)
-Das ist der entscheidende letzte Schritt. Dein Compiler muss wissen:
-- Wo liegen die Header-Dateien? (-I /pfad/zu/include)
-- Wo liegen die kompilierten Libs? (-L /pfad/zu/lib)
-- Welche Libs soll er einbinden? (-lboost_system)
 
 ## Der Unterschied: Statisch vs. Dynamisch
 Wenn eine Bibliothek „installiert" wird, gibt es zwei Varianten:
